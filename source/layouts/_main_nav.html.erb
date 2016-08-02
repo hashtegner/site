@@ -1,0 +1,11 @@
+<nav class="main-nav">
+  <ul>
+    <li <%= 'class="active"' if current_page.url == '/' %>>
+      <%= link_to 'Sobre', '/' %>
+    </li>
+    <li <%= 'class="active"' if current_page.url == '/projetos' %>>
+      <%= link_to 'Projects', '/' %>
+    </li>
+    <li><%= link_to 'Contact', '/' %></li>
+  </ul>
+</nav>

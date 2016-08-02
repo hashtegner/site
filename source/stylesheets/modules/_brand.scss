@@ -1,0 +1,15 @@
+.brand {
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 30%;
+    height: 5px;
+
+    background: $primary-color;
+  }
+}

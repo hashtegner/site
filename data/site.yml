@@ -1,0 +1,39 @@
+title: Desenvolvedor Web
+me: Alessandro Tegner
+name: alesshh.com
+
+contact:
+  - link: 'mailto:alessandro.tegner@gmail.com'
+    label: 'alessandro.tegner@gmail.com'
+    options:
+      class: email
+
+  - link: 'https://github.com/alesshh'
+    label: Github
+    options:
+      class: github
+      target: blank
+
+  - link: 'https://linkedin.com/in/alesshh'
+    label: Linkedin
+    options:
+      class: linkedin
+      target: blank
+
+  - link: 'https://twitter.com/alesshh'
+    label: Twitter
+    options:
+      class: twitter
+      target: blank
+
+  - link: 'https://facebook.com/al3ssn'
+    label: Facebook
+    options:
+      class: facebook
+      target: blank
+
+  - link: 'https://instagram.com/alesshh'
+    label: Instagram
+    options:
+      class: instagram
+      target: blank
