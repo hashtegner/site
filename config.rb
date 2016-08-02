@@ -41,7 +41,7 @@ helpers do
   end
 
   def page_image
-    current_page.data.image || url_for('me.svg')
+    current_page.data.image || url_for('images/me.svg')
   end
 end
 
