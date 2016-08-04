@@ -1,6 +1,24 @@
-title: Desenvolvedor Web
+title: Alessandro Tegner, desenvolvedor web
+description: Olá, sou o Alessandro Tegner, desenvolvedor, especializado em Ruby on Rails e tecnologias web.
 me: Alessandro Tegner
 name: alesshh.com
+twitter: '@alesshh'
+
+microdata:
+  '@context': 'http://schema.org'
+  '@type': Person
+  name: Alessandro Tegner
+  url: http://alesshh.com
+  jobTitle: Full Stack Developer
+  image: http://gravatar.com/avatar/4fe50429dc583586c0f615a448149b8b?s=200
+  address:
+    '@type': PostalAddress
+    addressLocality: Florianópolis
+    addressRegion: SC
+  alumniOf:
+    '@type': Organization
+    url: http://ucs.br
+
 
 contact:
   - link: 'mailto:alessandro.tegner@gmail.com'
