@@ -20,10 +20,16 @@ page '/*.txt', layout: false
 
 set :build_dir, 'alesshh.github.io'
 
+set :protocol, 'http://'
+set :host, 'alesshh.com'
+set :port, 80
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+
+  set :host, 'localhost'
+  set :port, 4567
 end
 
 ###
@@ -32,6 +38,18 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def optional_port
+    config.port if config.port != 80
+  end
+
+  def host_with_port
+    [config.host, optional_port].compact.join(':')
+  end
+
+  def image_url(source)
+    [config.protocol, host_with_port, image_path(source)].join
+  end
+
   def page_title
     current_page.data.title || data.site.title
   end
@@ -41,7 +59,7 @@ helpers do
   end
 
   def page_image
-    current_page.data.image || url_for('images/me.svg')
+    current_page.data.image || image_url('images/me.png')
   end
 end
 
