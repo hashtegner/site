@@ -1,4 +1,4 @@
-title: Alessandro Tegner, desenvolvedor web
+title: Alessandro Tegner, desenvolvedor web.
 description: Olá, sou o Alessandro Tegner, desenvolvedor, especializado em Ruby on Rails e tecnologias web.
 me: Alessandro Tegner
 name: alesshh.com
@@ -19,6 +19,11 @@ microdata:
     '@type': Organization
     url: http://ucs.br
 
+main_nav:
+  - label: Sobre
+    url: '/'
+  - label: Projetos
+    url: '/projetos.html'
 
 contact:
   - link: 'mailto:alessandro.tegner@gmail.com'

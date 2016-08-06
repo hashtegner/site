@@ -1,11 +1,9 @@
 <nav class="main-nav">
   <ul>
-    <li <%= 'class="active"' if current_page.url == '/' %>>
-      <%= link_to 'Sobre', '/' %>
-    </li>
-    <li <%= 'class="active"' if current_page.url == '/projetos' %>>
-      <%= link_to 'Projects', '/' %>
-    </li>
-    <li><%= link_to 'Contact', '/' %></li>
+    <% data.site.main_nav.each do |nav| %>
+      <li <%= 'class="active"' if nav[:url] == current_page.url %>>
+        <%= link_to nav[:label], nav[:url] %>
+      </li>
+    <% end %>
   </ul>
 </nav>
