@@ -51,7 +51,7 @@ helpers do
   end
 
   def page_title
-    current_page.data.title || data.site.title
+    [current_page.data.title, data.site.title].compact.join(' ')
   end
 
   def page_description
@@ -60,6 +60,10 @@ helpers do
 
   def page_image
     current_page.data.image || image_url('images/me.png')
+  end
+
+  def grouped_projects
+    data.projects.all.group_by(&:year)
   end
 end
 

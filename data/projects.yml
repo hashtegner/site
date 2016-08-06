@@ -1,0 +1,98 @@
+all:
+  - title: Flua
+    short_description: 'Software de gestão financeira para pequenas e médias empresas.'
+    skills:
+      - foo
+      - bar
+      - hello
+    year: 2016
+
+  - title: Site 321
+    short_description: 'CMS / Gerenciador de conteúdo de sites com API para desenvolvedores.'
+    skills:
+      - foo
+      - bar
+      - hello
+    year: 2016
+
+  - title: Casa + Prat-K
+    short_description: 'Ecommerce de Utilidades para Casa'
+    year: 2016
+
+  - title: Kukos
+    short_description: 'Ecommerce de Decoração'
+    year: 2016
+
+  - title: Portal da Hotelaria
+    short_description: Site de Imobiliária
+    year: 2015
+
+  - title: GoodsBr
+    short_description: 'Ecommerce B2B de Decoração'
+    year: 2015
+
+  - title: Mãos do Mundo
+    short_description: 'Sistema de Compras de Mercadoria'
+    year: 2015
+
+  - title: Imobiliária Gramadense
+    short_description: Site de Imobiliária
+    year: 2014
+
+  - title: Hostel Britânico
+    short_description: 'Site'
+    year: 2013
+
+  - title: IMOX Imobiliária
+    short_description: Site de Imobiliária
+    year: 2013
+
+  - title: Imobiliária Gramado Invest
+    short_description: Site de Imobiliária
+    year: 2013
+
+  - title: RCavalli
+    short_description: Site de Imobiliária
+    year: 2013
+
+  - title: Mãos do Mundo
+    short_description: Sistema de Compra e Importação de mercadorias
+    year: 2013
+
+  - title: Display Card
+    short_description: Site de Display Card
+    year: 2012
+
+  - title: Mãos do Mundo
+    short_description: Sistema de distribuição entre lojas
+    year: 2012
+
+  - title: Varejo Digital
+    short_description: Sistema de Varejo
+    year: 2011
+
+  - title: Aplicativo Cidade do Átomo
+    year: 2012
+  - title: Aplicativo Carbópolis
+    year: 2012
+
+
+  - title: Hotel Pequenino
+    year: 2010
+
+  - title: Pousada Quinta dos Marques
+    year: 2010
+
+  - title: Bill Bar
+    year: 2010
+
+  - title: Florybal
+    year: 2010
+
+  - title: Monarca Peças
+    year: 2010
+
+  - title: Gallas
+    year: 2010
+
+

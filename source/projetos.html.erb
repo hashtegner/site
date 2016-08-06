@@ -1,0 +1,41 @@
+---
+title: Desenvolvimento de sites, apps e softwares, em Ruby on Rails e tecnologias web.
+description: Conheça os projetos de sites, apps e softwares que já participei e desenvolvi.
+---
+
+<h1>
+  Alguns sites, apps e softwares <br/>
+  que já participei e desenvolvi ao longo dos anos</h1>
+
+<% grouped_projects.each do |year, group| %>
+  <%= partial 'projects/timeline', locals: {year: year, group: group} %>
+<% end %>
+
+<% 5.times do |i| %>
+  <!-- <section class="timeline">
+    <span class="timeline-year">
+      <%= 2016 - i %>
+    </span>
+
+    <span class="timeline-line"></span>
+
+    <% Array.new(rand(1..5)).each_slice(2) do |items| %>
+      <div class="timeline-row">
+        <% items.each do |i| %>
+          <div class="timeline-item-container">
+            <div class="timeline-item">
+              <h2>Flua</h2>
+              <p>
+                Software de gestão financeira para pequenas e médias empresas.
+                <br/>
+                <br/>
+                <%= link_to 'Ver informações', '' %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+
+    <% end %>
+  </section> -->
+<% end %>
