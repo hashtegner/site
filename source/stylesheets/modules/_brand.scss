@@ -12,4 +12,8 @@
 
     background: $primary-color;
   }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
