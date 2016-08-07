@@ -88,3 +88,31 @@ $bubble-color: #ddd;
     margin: 0;
   }
 }
+
+@include respond-to(600px, max-width) {
+  .timeline-year {
+    float: left;
+    margin-top: -5px;
+  }
+
+  .timeline-line {
+    left: 30px;
+  }
+
+  .timeline-item-container {
+    &, &:nth-child(even) {
+      width: 100%;
+      padding: 0 0 $offset-size 60px;
+    }
+  }
+
+  .timeline-item {
+    &:before {
+      right: initial;
+      left: -15px;
+      border-right: 15px solid #ddd;
+      border-left: 0;
+    }
+
+  }
+}
