@@ -52,7 +52,7 @@ helpers do
     [config.host, optional_port].compact.join(':')
   end
 
-  def url_for(path)
+  def site_url(path)
     [config.protocol, host_with_port, path].join
   end
 
