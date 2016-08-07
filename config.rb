@@ -1,3 +1,5 @@
+require 'builder'
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -48,6 +50,10 @@ helpers do
 
   def host_with_port
     [config.host, optional_port].compact.join(':')
+  end
+
+  def url_for(path)
+    [config.protocol, host_with_port, path].join
   end
 
   def image_url(source)
