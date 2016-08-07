@@ -1,98 +1,279 @@
 all:
-  - title: Flua
-    short_description: 'Software de gestão financeira para pequenas e médias empresas.'
+  - title: E-commerce Casa + Prat-K
+    browser_title:  Desenvolvimento de loja virtual em Rails - E-commerce Casa + Prat-k
+    url: /desenvolvimento-de-loja-virtual-em-rails-pratk
+    short_description: 'Desenvolvimento de loja virtual de organizadores e utilidades para o lar.'
+    description:
+      >
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        neste projeto desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram a criação da arquitetura geral da aplicação, o desenvolvimento de
+        REST API's para entregar dados de produtos, estoques e checkout, MongoDB
+        e SQL para persistência de informações, jobs assíncronos com Sidekiq, integração com
+        <a href='https://bpag.uol.com.br/' target='blank'>BPag</a> para captura de pagamentos,
+        checkout usando <a href='https://facebook.github.io/react/' target='blank'>React</a>.
+    site: 'http://casamaisprat-k.com'
+    year: 2016
+    image: images/projects/casa-prat-k.png
     skills:
-      - foo
-      - bar
-      - hello
-    year: 2016
+      - Arquitetura de Software
+      - Ruby
+      - Rails
+      - Front End
+      - React
+      - REST API
+      - MongoDB
+      - MySQL
+      - Sidekiq
+      - AWS OpsWorks
 
-  - title: Site 321
-    short_description: 'CMS / Gerenciador de conteúdo de sites com API para desenvolvedores.'
+
+  - title: E-commerce Kukos
+    browser_title:  Desenvolvimento de loja virtual em Rails - E-commerce Kukos
+    url: /desenvolvimento-de-loja-virtual-em-rails-kukos
+    short_description: 'Desenvolvimento de loja virtual de relógios e decoração para casa.'
+    description:
+      >
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        neste projeto desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram a criação da arquitetura geral da aplicação, o desenvolvimento de
+        REST API's para entregar dados de produtos, estoques e checkout, MongoDB
+        e SQL para persistência de informações, jobs assíncronos com Sidekiq, integração com
+        <a href='https://pagseguro.uol.com.br/' target='blank'>PagSeguro</a> para captura de pagamentos,
+        checkout usando <a href='https://facebook.github.io/react/' target='blank'>React</a>.
+    site: 'http://kukos.com.br'
+    year: 2016
+    image: images/projects/kukos.png
     skills:
-      - foo
-      - bar
-      - hello
-    year: 2016
+      - Arquitetura de Software
+      - Ruby
+      - Rails
+      - Front End
+      - React
+      - REST API
+      - MongoDB
+      - MySQL
+      - Sidekiq
+      - AWS OpsWorks
 
-  - title: Casa + Prat-K
-    short_description: 'Ecommerce de Utilidades para Casa'
-    year: 2016
 
-  - title: Kukos
-    short_description: 'Ecommerce de Decoração'
-    year: 2016
+  - title: CMS Site321
+    browser_title: Desenvolvimento de CMS e Gerenciador para Sites em Rails - Site321
+    url: /desenvolvimento-de-cms-para-sites-site-321
+    short_description: 'Desenvolvimento de CMS e Gerenciador para Sites, com API para desenvolvedores.'
+    description:
+      >
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        neste projeto tive participação tanto na ideia, como desenvolvedor Full Stack.
+        <br/>
+        <br/>
+        Meu papel exigiu a criação da arquitetura da aplicação, desenvolvimento
+        back end e front end, REST API's para entrega de conteúdo e serviço para
+        entregar e manipular "imagens on the fly".
+        <br/>
+        <br/>
+        Também fui reponsável
+        pelo desenvolvimento da infraestrutura e deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
+
+    site: 'http://site321.com.br'
+    year: 2015
+    image: images/projects/site321.png
+    skills:
+      - Ruby
+      - Rails
+      - Front End
+      - REST API
+      - MySQL
+      - Micro Services
+      - Jenkins
+      - Sidekiq
+      - NGINX
+      - Digital Ocean
+      - AWS
+      - SaaS
+
 
   - title: Portal da Hotelaria
-    short_description: Site de Imobiliária
-    year: 2015
+    browser_title:  Desenvolvimento de portal de conteúdo em Rails - Portal da Hotelaria
+    url: /desenvolvimento-de-portal-de-conteudo-portal-da-hotelaria
+    short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
+    description:
+      >
+        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        neste projeto desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Meu papel exigiu a criação da arquitetura do portal e CMS, desenvolvimento Back End e Front End. Também fui reponsável
+        pelo desenvolvimento da infraestrutura e deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
 
-  - title: GoodsBr
-    short_description: 'Ecommerce B2B de Decoração'
+    site: 'http://portaldahotelaria.com.br'
     year: 2015
+    image: images/projects/portal-da-hotelaria.png
+    skills:
+      - Ruby
+      - Rails
+      - Front End
+      - REST API
+      - MySQL
+      - CMS
+      - NGINX
+      - Digital Ocean
 
-  - title: Mãos do Mundo
-    short_description: 'Sistema de Compras de Mercadoria'
+  - title: E-commerce B2B GoodsBr
+    browser_title:  Desenvolvimento de loja virtual B2B em Rails - GoodsBR
+    url: /desenvolvimento-de-loja-virtual-em-rails-goodsbr
+    short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
+    description:
+      >
+        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        neste projeto desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Meu papel exigiu a criação da arquitetura da loja, desenvolvimento Back End e Front End,
+        desenvolvimento do CMS e gestão de pedidos e sincronização de produtos com ERP.
+        <br/>
+        <br/>
+        Também fui reponsável pelo desenvolvimento da infraestrutura e
+        deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
+
+    site: 'http://goodsbr.com.br'
     year: 2015
+    image: images/projects/goodsbr.png
+    skills:
+      - Ruby
+      - Rails
+      - Front End
+      - MySQL
+      - CMS
+      - NGINX
+      - Digital Ocean
 
-  - title: Imobiliária Gramadense
-    short_description: Site de Imobiliária
+  - title: Software Mãos do Mundo
+    browser_title:  Desenvolvimento de software para requisição de compras em Rails - Mãos do Mundo
+    url: /desenvolvimento-de-software-de-requisicao-de-compras
+    short_description: 'Desenvolvimento de software para requisição de compras de mercadorias.'
+    description:
+      >
+        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        neste projeto desempenhei tanto papel de Product Manager, como de Full Stack Developer.
+        <br/>
+        <br/>
+        Meu papel exigiu entender os requisitos do cliente, estudo e validação da solução,
+        a criação da arquitetura do sistema, desenvolvimento Back End e Front End
+        e experiências com protocolo <a href='http://searchexchange.techtarget.com/definition/IMAP' target='blank'>IMAP</a>
+        para recebimento de e-mails.
+        <br/>
+        <br/>
+        Também fui reponsável pelo desenvolvimento da infraestrutura e
+        deploy na <a href='https://www.linode.com/' target='blank'>Linode</a>.
+
+        <br/>
+        <br/>
+        Ao final deste case, uma das features entregues ao cliente, permitiu com
+        que este executasse açõe na aplicação utilizando seu e-mail pessoal.
+
+    year: 2015
+    image: images/projects/maosdomundo-purchases.png
+    skills:
+      - Ruby
+      - Rails
+      - Front End
+      - MySQL
+      - Sidekiq
+      - NGINX
+      - Linode
+
+  - title: Software Flua
+    browser_title:  Desenvolvimento de software para gestão financeira em Rails - Flua
+    url: /desenvolvimento-de-software-para-gestao-financeira-rails
+    short_description: 'Desenvolvimento de software para gestão financeira de pequenas e médias empresas.'
+    description:
+      >
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        exerci neste projeto o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram a criação da arquitetura componentes da aplicação SaaS,
+        o desenvolvimento Back end e Front end, tecnologias como
+        MySQL para persistência de dados, jobs assíncronos com Sidekiq para processamento
+        de relatórios e notificações.
+    site: 'http://flua.com.br'
     year: 2014
-
-  - title: Hostel Britânico
-    short_description: 'Site'
-    year: 2013
-
-  - title: IMOX Imobiliária
-    short_description: Site de Imobiliária
-    year: 2013
-
-  - title: Imobiliária Gramado Invest
-    short_description: Site de Imobiliária
-    year: 2013
-
-  - title: RCavalli
-    short_description: Site de Imobiliária
-    year: 2013
-
-  - title: Mãos do Mundo
-    short_description: Sistema de Compra e Importação de mercadorias
-    year: 2013
-
-  - title: Display Card
-    short_description: Site de Display Card
-    year: 2012
-
-  - title: Mãos do Mundo
-    short_description: Sistema de distribuição entre lojas
-    year: 2012
-
-  - title: Varejo Digital
-    short_description: Sistema de Varejo
-    year: 2011
-
-  - title: Aplicativo Cidade do Átomo
-    year: 2012
-  - title: Aplicativo Carbópolis
-    year: 2012
+    image: images/projects/flua.png
+    skills:
+      - Arquitetura de Software
+      - Ruby
+      - Rails
+      - Front End
+      - MySQL
+      - Sidekiq
+      - AWS OpsWorks
+      - SaaS
 
 
-  - title: Hotel Pequenino
-    year: 2010
 
-  - title: Pousada Quinta dos Marques
-    year: 2010
+  # - title: Imobiliária Gramadense
+  #   short_description: Site de Imobiliária
+  #   year: 2014
 
-  - title: Bill Bar
-    year: 2010
+  # - title: Hostel Britânico
+  #   short_description: 'Site'
+  #   year: 2013
 
-  - title: Florybal
-    year: 2010
+  # - title: IMOX Imobiliária
+  #   short_description: Site de Imobiliária
+  #   year: 2013
 
-  - title: Monarca Peças
-    year: 2010
+  # - title: Imobiliária Gramado Invest
+  #   short_description: Site de Imobiliária
+  #   year: 2013
 
-  - title: Gallas
-    year: 2010
+  # - title: RCavalli
+  #   short_description: Site de Imobiliária
+  #   year: 2013
+
+  # - title: Mãos do Mundo
+  #   short_description: Sistema de Compra e Importação de mercadorias
+  #   year: 2013
+
+  # - title: Display Card
+  #   short_description: Site de Display Card
+  #   year: 2012
+
+  # - title: Mãos do Mundo
+  #   short_description: Sistema de distribuição entre lojas
+  #   year: 2012
+
+  # - title: Varejo Digital
+  #   short_description: Sistema de Varejo
+  #   year: 2011
+
+  # - title: Aplicativo Cidade do Átomo
+  #   year: 2012
+  # - title: Aplicativo Carbópolis
+  #   year: 2012
+
+
+  # - title: Hotel Pequenino
+  #   year: 2010
+
+  # - title: Pousada Quinta dos Marques
+  #   year: 2010
+
+  # - title: Bill Bar
+  #   year: 2010
+
+  # - title: Florybal
+  #   year: 2010
+
+  # - title: Monarca Peças
+  #   year: 2010
+
+  # - title: Gallas
+  #   year: 2010
 
 

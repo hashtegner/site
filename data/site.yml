@@ -23,7 +23,7 @@ main_nav:
   - label: Sobre
     url: '/'
   - label: Projetos
-    url: '/projetos.html'
+    url: '/projetos'
 
 contact:
   - link: 'mailto:alessandro.tegner@gmail.com'
