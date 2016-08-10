@@ -29,3 +29,25 @@ active: /entre-em-contato
   <%= submit_tag 'Enviar Mensagem' %>
 </form>
 
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/integration/stable/rd-js-integration.min.js"></script>
+<script type="text/javascript">
+  ;(function() {
+    var form = document.getElementsByTagName('form')[0];
+
+    form.onsubmit = function(e) {
+      e.preventDefault();
+
+      var data = [
+        {name: 'nome', value: form.nome.value},
+        {name: 'email', value: form.email.value},
+        {name: 'mensagem', value: form.mensagem.value},
+        {name: 'identificador', value: 'contato-site'},
+        {name: 'token_rdstation', value: '9b550e6839731455271b44ff0e41f715'}
+      ];
+
+      RdIntegration.post(data, function() {
+        alert('Obrigado pelo seu contato! oekeok');
+      });
+    };
+  })();
+</script>
