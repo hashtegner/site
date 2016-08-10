@@ -1,19 +1,24 @@
 all:
-  - title: Desenvolvimento do E-commerce<br/>  Casa + Prat-K
+  - title: Desenvolvimento do E-commerce<br/> Casa + Prat-K
     browser_title:  Desenvolvimento de Lojas Virtuais e E-commerces - Casa + Prat-K
     url: /desenvolvimento-de-ecommerce-casa-pratk
     short_description: 'Desenvolvimento de loja virtual de organizadores e utilidades para o lar.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
-        neste projeto desempenhei o papel de Full Stack Developer.
+        O objetivo deste projeto foi a criação de uma loja virtual para a Casa + Prat-k,
+        que atua no segmento de organizadores e utilidades para o lar, e
+        foi desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>
+        em <strong>Canela - RS</strong>.
+        <br/>
+        <br/>
+        Neste projeto desempenhei o papel de <strong>Full Stack Developer</strong>.
         <br/>
         <br/>
         Minhas responsabilidades envolveram a criação da arquitetura geral da aplicação, o desenvolvimento de
-        REST API's para entregar dados de produtos, estoques e checkout, MongoDB
-        e SQL para persistência de informações, jobs assíncronos com Sidekiq, integração com
-        <a href='https://bpag.uol.com.br/' target='blank'>BPag</a> para captura de pagamentos,
-        checkout usando <a href='https://facebook.github.io/react/' target='blank'>React</a>.
+        REST API's para entregar informações de produtos, estoques e checkout.
+        Utilizamos MongoDB e SQL para persistência de informações, jobs assíncronos com Sidekiq, integração com
+        <a href='https://bpag.uol.com.br/' target='blank'>BPag</a> para captura de pagamentos, e no
+        checkout usamos <a href='https://facebook.github.io/react/' target='blank'>React</a>.
     site: 'http://casamaisprat-k.com'
     year: 2016
     image: images/projects/casa-prat-k.png
@@ -36,15 +41,18 @@ all:
     short_description: 'Desenvolvimento de loja virtual de relógios e decoração para casa.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
-        neste projeto desempenhei o papel de Full Stack Developer.
+        O objetivo deste projeto foi a criação de uma loja virtual para a Kukos,
+        que atua no segmento de relógios cuco e decoração, e
+        foi desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>
+        <br/><br/>
+        Neste projeto desempenhei o papel de <strong>Full Stack Developer</strong>.
         <br/>
         <br/>
         Minhas responsabilidades envolveram a criação da arquitetura geral da aplicação, o desenvolvimento de
-        REST API's para entregar dados de produtos, estoques e checkout, MongoDB
+        REST API's para entregar dados de produtos, estoques e checkout. Utilizamos MongoDB
         e SQL para persistência de informações, jobs assíncronos com Sidekiq, integração com
-        <a href='https://pagseguro.uol.com.br/' target='blank'>PagSeguro</a> para captura de pagamentos,
-        checkout usando <a href='https://facebook.github.io/react/' target='blank'>React</a>.
+        <a href='https://pagseguro.uol.com.br/' target='blank'>PagSeguro</a> para captura de pagamentos, e no
+        checkout usamos <a href='https://facebook.github.io/react/' target='blank'>React</a>.
     site: 'http://kukos.com.br'
     year: 2016
     image: images/projects/kukos.png
@@ -67,8 +75,12 @@ all:
     short_description: 'Desenvolvimento de CMS e Gerenciador para Sites, com API para desenvolvedores.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
-        neste projeto tive participação tanto na ideia, como desenvolvedor Full Stack.
+        O Site321 é um CMS / Administrador de sites no modelo <a href='https://en.wikipedia.org/wiki/Software_as_a_service' target='blank'>SaaS</a>,
+        com API para desenvolvedores (Content Delivery),
+        e foi desenvolvido na <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>.
+        <br/>
+        <br/>
+        Neste projeto tive participação tanto na ideia e visão do produto, como no desenvolvimento.
         <br/>
         <br/>
         Meu papel exigiu a criação da arquitetura da aplicação, desenvolvimento
@@ -103,12 +115,16 @@ all:
     short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
     description:
       >
-        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
-        neste projeto desempenhei o papel de Full Stack Developer.
+        O Portal da Hotelaria é um guia / portal de informações do segmento hoteleiro,
+        e foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>.
         <br/>
         <br/>
-        Meu papel exigiu a criação da arquitetura do portal e CMS, desenvolvimento Back End e Front End. Também fui reponsável
-        pelo desenvolvimento da infraestrutura e deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
+        Neste projeto desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Meu papel exigiu a criação da arquitetura do portal, desenvolvimento do CMS / gerenciador do site,
+        e desenvolvimento Back End e Front End. Também fui reponsável
+        pelo infraestrutura e deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
 
     site: 'http://portaldahotelaria.com.br'
     year: 2015
@@ -129,12 +145,19 @@ all:
     short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
     description:
       >
-        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong> ,
-        neste projeto desempenhei o papel de Full Stack Developer.
+        O objetivo deste projeto foi a criação de uma e-commerce no modelo B2B
+        para a GoodsBR, que atua como distribuidora de produtos decorativos para
+        lojistas.
+
+        <br/>
+        <br/>
+
+        Este projeto foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
+        e desempenhei o papel de Full Stack Developer.
         <br/>
         <br/>
         Meu papel exigiu a criação da arquitetura da loja, desenvolvimento Back End e Front End,
-        desenvolvimento do CMS e gestão de pedidos e sincronização de produtos com ERP.
+        desenvolvimento do CMS e gestão de pedidos e sincronização de produtos e estoques com o ERP.
         <br/>
         <br/>
         Também fui reponsável pelo desenvolvimento da infraestrutura e
@@ -158,13 +181,17 @@ all:
     short_description: 'Desenvolvimento de software customizado para gerenciamento de compras.'
     description:
       >
-        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
-        neste projeto desempenhei tanto papel de Product Manager, como de Full Stack Developer.
+        O objetivo deste projeto foi desenvolver um sistema de requisição de compras
+        para a Mãos do Mundo, que atua no segmento de importação de artigos de decoração.
         <br/>
         <br/>
-        Meu papel exigiu entender os requisitos do cliente, estudo e validação da solução,
-        a criação da arquitetura do sistema, desenvolvimento Back End e Front End
-        e experiências com protocolo <a href='http://searchexchange.techtarget.com/definition/IMAP' target='blank'>IMAP</a>
+        Foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>.
+        Neste projeto desempenhei tanto papel de Product Manager, como de Full Stack Developer.
+        <br/>
+        <br/>
+        Como Product Manager, meu papel exigiu entender os requisitos do cliente, estudo e validação de solução.
+        Como desenvolvedor, fui responsável pela criação da arquitetura do sistema,
+        desenvolvimento Back End e Front End, e experiências com protocolo <a href='http://searchexchange.techtarget.com/definition/IMAP' target='blank'>IMAP</a>
         para recebimento de e-mails.
         <br/>
         <br/>
@@ -193,8 +220,13 @@ all:
     short_description: 'Desenvolvimento de software para gestão financeira de pequenas e médias empresas.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
-        exerci neste projeto o papel de Full Stack Developer.
+        O Flua é um software no modelo <a href='https://en.wikipedia.org/wiki/Software_as_a_service' target='blank'>SaaS</a>,
+        para gestão financeira de pequenas e médias empresas.
+        <br/>
+        <br/>
+
+        Foi desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>.
+        Exerci neste projeto o papel de Full Stack Developer.
         <br/>
         <br/>
         Minhas responsabilidades envolveram a criação da arquitetura componentes da aplicação SaaS,
