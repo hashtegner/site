@@ -1,7 +1,8 @@
 <nav class="main-nav">
   <ul>
     <% data.site.main_nav.each do |nav| %>
-      <li <%= 'class="active"' if nav[:url] == current_page.url %>>
+
+      <li <%= 'class="active"' if nav[:url] == current_page.data.active %>>
         <%= link_to nav[:label], nav[:url] %>
       </li>
     <% end %>

@@ -24,6 +24,8 @@ main_nav:
     url: '/'
   - label: Projetos
     url: '/projetos'
+  - label: Contato
+    url: '/entre-em-contato'
 
 contact:
   - link: 'mailto:alessandro.tegner@gmail.com'
