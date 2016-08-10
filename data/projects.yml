@@ -1,11 +1,11 @@
 all:
-  - title: E-commerce Casa + Prat-K
-    browser_title:  Desenvolvimento de loja virtual em Rails - E-commerce Casa + Prat-k
-    url: /desenvolvimento-de-loja-virtual-em-rails-pratk
+  - title: Desenvolvimento do E-commerce<br/>  Casa + Prat-K
+    browser_title:  Desenvolvimento de Lojas Virtuais e E-commerces - Casa + Prat-K
+    url: /desenvolvimento-de-ecommerce-casa-pratk
     short_description: 'Desenvolvimento de loja virtual de organizadores e utilidades para o lar.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
         neste projeto desempenhei o papel de Full Stack Developer.
         <br/>
         <br/>
@@ -30,13 +30,13 @@ all:
       - AWS OpsWorks
 
 
-  - title: E-commerce Kukos
-    browser_title:  Desenvolvimento de loja virtual em Rails - E-commerce Kukos
-    url: /desenvolvimento-de-loja-virtual-em-rails-kukos
+  - title: Desenvolvimento do E-commerce<br/>Kukos
+    browser_title:  Desenvolvimento de Lojas Virtuais e E-commerces - Kukos
+    url: /desenvolvimento-de-ecommerce-kukos
     short_description: 'Desenvolvimento de loja virtual de relógios e decoração para casa.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
         neste projeto desempenhei o papel de Full Stack Developer.
         <br/>
         <br/>
@@ -61,9 +61,9 @@ all:
       - AWS OpsWorks
 
 
-  - title: CMS Site321
-    browser_title: Desenvolvimento de CMS e Gerenciador para Sites em Rails - Site321
-    url: /desenvolvimento-de-cms-para-sites-site-321
+  - title: Desenvolvimento do CMS<br/>Site321
+    browser_title: Desenvolvimento de CMS e Gerenciador para Sites - Site321
+    url: /desenvolvimento-de-cms-site-321
     short_description: 'Desenvolvimento de CMS e Gerenciador para Sites, com API para desenvolvedores.'
     description:
       >
@@ -97,13 +97,13 @@ all:
       - SaaS
 
 
-  - title: Portal da Hotelaria
-    browser_title:  Desenvolvimento de portal de conteúdo em Rails - Portal da Hotelaria
+  - title: Desenvolvimento do Portal<br/>Portal da Hotelaria
+    browser_title:  Desenvolvimento de portal de conteúdo - Portal da Hotelaria
     url: /desenvolvimento-de-portal-de-conteudo-portal-da-hotelaria
     short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
     description:
       >
-        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
         neste projeto desempenhei o papel de Full Stack Developer.
         <br/>
         <br/>
@@ -123,13 +123,13 @@ all:
       - NGINX
       - Digital Ocean
 
-  - title: E-commerce B2B GoodsBr
-    browser_title:  Desenvolvimento de loja virtual B2B em Rails - GoodsBR
-    url: /desenvolvimento-de-loja-virtual-em-rails-goodsbr
+  - title: Desenvolvimento do E-commerce B2B<br/>GoodsBr
+    browser_title:  Desenvolvimento de loja virtual B2B - GoodsBR
+    url: /desenvolvimento-de-ecommerce-b2b-goodsbr
     short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
     description:
       >
-        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong> ,
         neste projeto desempenhei o papel de Full Stack Developer.
         <br/>
         <br/>
@@ -152,13 +152,13 @@ all:
       - NGINX
       - Digital Ocean
 
-  - title: Software Mãos do Mundo
-    browser_title:  Desenvolvimento de software para requisição de compras em Rails - Mãos do Mundo
-    url: /desenvolvimento-de-software-de-requisicao-de-compras
-    short_description: 'Desenvolvimento de software para requisição de compras de mercadorias.'
+  - title: Desenvolvimento do Software<br/>Mãos do Mundo
+    browser_title:  Desenvolvimento de software customizado - Mãos do Mundo
+    url: /desenvolvimento-de-software-de-customizado-maos-do-mundo
+    short_description: 'Desenvolvimento de software customizado para gerenciamento de compras.'
     description:
       >
-        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        Desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
         neste projeto desempenhei tanto papel de Product Manager, como de Full Stack Developer.
         <br/>
         <br/>
@@ -187,19 +187,19 @@ all:
       - NGINX
       - Linode
 
-  - title: Software Flua
-    browser_title:  Desenvolvimento de software para gestão financeira em Rails - Flua
-    url: /desenvolvimento-de-software-para-gestao-financeira-rails
+  - title: Desenvolvimento do Software<br/>Flua
+    browser_title:  Desenvolvimento de Software Financeiro - Flua
+    url: /desenvolvimento-de-software-financeiro-flua
     short_description: 'Desenvolvimento de software para gestão financeira de pequenas e médias empresas.'
     description:
       >
-        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>,
+        Desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>,
         exerci neste projeto o papel de Full Stack Developer.
         <br/>
         <br/>
         Minhas responsabilidades envolveram a criação da arquitetura componentes da aplicação SaaS,
-        o desenvolvimento Back end e Front end, tecnologias como
-        MySQL para persistência de dados, jobs assíncronos com Sidekiq para processamento
+        o desenvolvimento Back end e Front end, a utilização de MySQL para persistência
+        de dados, jobs assíncronos com Sidekiq para processamento
         de relatórios e notificações.
     site: 'http://flua.com.br'
     year: 2014

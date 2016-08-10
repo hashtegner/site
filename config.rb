@@ -61,7 +61,7 @@ helpers do
   end
 
   def page_title
-    [current_page.data.title, data.site.title].compact.join(' - ')
+    current_page.data.title || data.site.title
   end
 
   def page_description
