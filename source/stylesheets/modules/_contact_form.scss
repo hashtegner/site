@@ -14,23 +14,21 @@ $offset: 30px;
   }
 }
 
-.contact-form {
-  input[type='text'],
-  input[type='email'],
-  textarea {
-    border: 1px solid #ccc;
-    width: 100%;
-    display: block;
+.contact-form-field {
+  border: 1px solid #ccc;
+  width: 100%;
+  display: block;
 
-    margin-bottom: 20px;
-    padding: 5px;
-    box-sizing: border-box;
-  }
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
 
-  textarea {
+  textarea& {
     height: 110px;
   }
+}
 
+.contact-form {
   input[type='submit'] {
     border: 1px solid #ccc;
     background: #fff;
@@ -38,7 +36,6 @@ $offset: 30px;
     padding: 5px 10px;
     border-radius: 20px;
   }
-
 }
 
 @include respond-to(600px, max-width) {
