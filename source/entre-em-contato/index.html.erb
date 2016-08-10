@@ -14,16 +14,16 @@ active: /entre-em-contato
 
 <form action="#" method="post" class="contact-form">
   <div class="contact-form-side">
-    <%= label_tag 'Nome', for: :nome %>
-    <%= text_field_tag :nome, id: :nome, required: true, type: 'text' %>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required="true">
 
-    <%= label_tag 'E-mail', for: :email %>
-    <%= email_field_tag :email, id: :email, required: true %>
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" required="true">
   </div>
 
   <div class="contact-form-side">
-    <%= label_tag 'Mensagem', for: :mensagem %>
-    <%= text_area_tag :mensagem, id: :mensagem, required: true %>
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" required="true"></textarea>
   </div>
   <br class="clearfix">
   <%= submit_tag 'Enviar Mensagem' %>
