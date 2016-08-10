@@ -14,16 +14,21 @@ $offset: 30px;
   }
 }
 
-.contact-form-field {
-  border: 1px solid #ccc;
-  width: 100%;
-  display: block;
+.contact-form {
 
-  margin-bottom: 20px;
-  padding: 5px;
-  box-sizing: border-box;
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    border: 1px solid #ccc;
+    width: 100%;
+    display: block;
 
-  textarea& {
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  textarea {
     height: 110px;
   }
 }
