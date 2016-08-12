@@ -26,7 +26,7 @@ all:
       - Arquitetura de Software
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - React
       - REST API
       - MongoDB
@@ -43,7 +43,7 @@ all:
       >
         O objetivo deste projeto foi a criação de uma loja virtual para a Kukos,
         que atua no segmento de relógios cuco e decoração, e
-        foi desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>
+        foi desenvolvido nos laboratórios da <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a> em <strong>Canela - RS</strong>.
         <br/><br/>
         Neste projeto desempenhei o papel de <strong>Full Stack Developer</strong>.
         <br/>
@@ -60,7 +60,7 @@ all:
       - Arquitetura de Software
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - React
       - REST API
       - MongoDB
@@ -84,7 +84,7 @@ all:
         <br/>
         <br/>
         Meu papel exigiu a criação da arquitetura da aplicação, desenvolvimento
-        back end e front end, REST API's para entrega de conteúdo e serviço para
+        Back-end e Front-end, REST API's para entrega de conteúdo e serviço para
         entregar e manipular "imagens on the fly".
         <br/>
         <br/>
@@ -97,9 +97,9 @@ all:
     skills:
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - REST API
-      - MySQL
+      - PostgreSQL
       - Micro Services
       - Jenkins
       - Sidekiq
@@ -123,7 +123,7 @@ all:
         <br/>
         <br/>
         Meu papel exigiu a criação da arquitetura do portal, desenvolvimento do CMS / gerenciador do site,
-        e desenvolvimento Back End e Front End. Também fui reponsável
+        e desenvolvimento Back-end e Front-end. Também fui reponsável
         pelo infraestrutura e deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
 
     site: 'http://portaldahotelaria.com.br'
@@ -132,7 +132,7 @@ all:
     skills:
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - REST API
       - MySQL
       - CMS
@@ -156,7 +156,7 @@ all:
         e desempenhei o papel de Full Stack Developer.
         <br/>
         <br/>
-        Meu papel exigiu a criação da arquitetura da loja, desenvolvimento Back End e Front End,
+        Meu papel exigiu a criação da arquitetura da loja, desenvolvimento Back-end e Front-end,
         desenvolvimento do CMS e gestão de pedidos e sincronização de produtos e estoques com o ERP.
         <br/>
         <br/>
@@ -169,7 +169,7 @@ all:
     skills:
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - MySQL
       - CMS
       - NGINX
@@ -191,7 +191,7 @@ all:
         <br/>
         Como Product Manager, meu papel exigiu entender os requisitos do cliente, estudo e validação de solução.
         Como desenvolvedor, fui responsável pela criação da arquitetura do sistema,
-        desenvolvimento Back End e Front End, e experiências com protocolo <a href='http://searchexchange.techtarget.com/definition/IMAP' target='blank'>IMAP</a>
+        desenvolvimento Back-end e Front-end, e experiências com protocolo <a href='http://searchexchange.techtarget.com/definition/IMAP' target='blank'>IMAP</a>
         para recebimento de e-mails.
         <br/>
         <br/>
@@ -208,7 +208,7 @@ all:
     skills:
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - MySQL
       - Sidekiq
       - NGINX
@@ -229,9 +229,9 @@ all:
         Exerci neste projeto o papel de Full Stack Developer.
         <br/>
         <br/>
-        Minhas responsabilidades envolveram a criação da arquitetura componentes da aplicação SaaS,
-        o desenvolvimento Back end e Front end, a utilização de MySQL para persistência
-        de dados, jobs assíncronos com Sidekiq para processamento
+        Minhas responsabilidades envolveram a criação da arquitetura de componentes da aplicação SaaS,
+        o desenvolvimento Back-end e Front-end, a utilização de MySQL para persistência
+        de dados e jobs assíncronos com Sidekiq para processamento
         de relatórios e notificações.
     site: 'http://flua.com.br'
     year: 2014
@@ -240,33 +240,161 @@ all:
       - Arquitetura de Software
       - Ruby
       - Rails
-      - Front End
+      - Front-end
       - MySQL
       - Sidekiq
       - AWS OpsWorks
       - SaaS
 
+  - title: Desenvolvimento de Site<br/>Imobiliária Gramadense
+    browser_title:  Desenvolvimento de Site para Imobiliárias - Imobiliária Gramadense
+    url: /desenvolvimento-de-site-imobiliaria-gramadense
+    short_description: 'Desenvolvimento de site e catálogo de imóveis para Imobiliária Gramadense.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um site e catálogo de imóveis para
+        Imobiliária Gramadense com atualização automática a partir do ERP da empresa.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>
+        em <strong>Canela - RS</strong>, e desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram o desenvolvimento do Front-end e Back-end do
+        site, e a arquitetura do processo de integração com o ERP. O site utiliza
+        banco de dados MySQL, e <a href='http://www.refinerycms.com/' target='blank'>RefineryCMS</a> como administrador de conteúdo.
+    site: 'http://imobiliariagramadense.com.br'
+    year: 2014
+    image: images/projects/imobiliaria-gramandense.png
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - MySQL
+      - Sidekiq
+      - Integração de Sistemas
+      - RefineryCMS
+      - Digital Ocean
+      - SEO
 
+  - title: Desenvolvimento de Site<br/>Hostel Britânico
+    browser_title:  Desenvolvimento de Site para Hotéis - Hostel Britânico
+    url: /desenvolvimento-de-site-para-hotel-britanico
+    short_description: 'Desenvolvimento de site para o hotel.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um site responsivo para o hotel Hostel Britânico.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>
+        em <strong>Canela - RS</strong>, e desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram o desenvolvimento do Front-end e Back-end do
+        site. O site utiliza
+        banco de dados MySQL, e <a href='http://www.refinerycms.com/' target='blank'>RefineryCMS</a> como administrador de conteúdo.
+    year: 2013
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - Responsive Web Design
+      - MySQL
+      - RefineryCMS
+      - Digital Ocean
+      - SEO
 
-  # - title: Imobiliária Gramadense
-  #   short_description: Site de Imobiliária
-  #   year: 2014
+  - title: Desenvolvimento de Site<br/>Imobiliária Gramado Invest
+    browser_title:  Desenvolvimento de Site para Imobiliárias - Imobiliária Gramado Invest
+    url: /desenvolvimento-de-site-imobiliaria-gramado-invest
+    short_description: 'Desenvolvimento de site e catálogo de imóveis para Imobiliária Gramado Invest.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um site e catálogo de imóveis para
+        Imobiliária Gramado Invest com atualização automática a partir do ERP da empresa.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>
+        em <strong>Canela - RS</strong>, e desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram o desenvolvimento do Front-end e Back-end do
+        site, e a arquitetura do processo de integração com o ERP. O site utiliza
+        banco de dados MySQL, e <a href='http://www.refinerycms.com/' target='blank'>RefineryCMS</a> como administrador de conteúdo.
+    site: 'http://imoximobiliaria.com.br'
+    year: 2013
+    image: images/projects/gramado-invest.png
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - MySQL
+      - Sidekiq
+      - Integração de Sistemas
+      - RefineryCMS
+      - Digital Ocean
+      - SEO
 
-  # - title: Hostel Britânico
-  #   short_description: 'Site'
-  #   year: 2013
+  - title: Desenvolvimento de Site<br/>IMOX Imobiliária
+    browser_title:  Desenvolvimento de Site para Imobiliárias - IMOX Imobiliária
+    url: /desenvolvimento-de-site-imobiliaria-imox
+    short_description: 'Desenvolvimento de site e catálogo de imóveis para IMOX Imobiliária.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um site e catálogo de imóveis para
+        IMOX Imobiliária com atualização automática a partir do ERP da empresa.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>
+        em <strong>Canela - RS</strong>, e desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram o desenvolvimento do Front-end e Back-end do
+        site, e a arquitetura do processo de integração com o ERP. O site utiliza
+        banco de dados MySQL, e <a href='http://www.refinerycms.com/' target='blank'>RefineryCMS</a> como administrador de conteúdo.
+    site: 'http://imoximobiliaria.com.br'
+    year: 2013
+    image: images/projects/imox-imobiliaria.png
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - MySQL
+      - Sidekiq
+      - Integração de Sistemas
+      - RefineryCMS
+      - Digital Ocean
+      - SEO
 
-  # - title: IMOX Imobiliária
-  #   short_description: Site de Imobiliária
-  #   year: 2013
-
-  # - title: Imobiliária Gramado Invest
-  #   short_description: Site de Imobiliária
-  #   year: 2013
-
-  # - title: RCavalli
-  #   short_description: Site de Imobiliária
-  #   year: 2013
+  - title: Desenvolvimento de Site<br/>RCavalli
+    browser_title:  Desenvolvimento de Site para Fotógrafo - RCavalli
+    url: /desenvolvimento-de-site-para-fotografo-rcavalli
+    image: images/projects/rcavalli.png
+    short_description: 'Desenvolvimento de site para exibição de fotografias.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um site de álbum de fotos
+        de eventos.
+        Cada álbum possui um código de acesso. Em posse do código de acesso, os
+        usuários que participaram do evento podem baixar suas fotos.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://organicadigital.com' target='blank'>Orgânica Digital</a>
+        em <strong>Canela - RS</strong>, e desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Minhas responsabilidades envolveram o desenvolvimento do Front-end e Back-end do
+        aplicativo. O aplicativo utiliza
+        banco de dados MySQL, e <a href='http://www.refinerycms.com/' target='blank'>RefineryCMS</a> como administrador de conteúdo.
+    year: 2013
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - Sidekiq
+      - MySQL
+      - RefineryCMS
+      - Digital Ocean
 
   # - title: Mãos do Mundo
   #   short_description: Sistema de Compra e Importação de mercadorias
