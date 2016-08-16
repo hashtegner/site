@@ -396,17 +396,106 @@ all:
       - RefineryCMS
       - Digital Ocean
 
-  # - title: Mãos do Mundo
-  #   short_description: Sistema de Compra e Importação de mercadorias
-  #   year: 2013
+  - title: Desenvolvimento do Software<br/>Mãos do Mundo
+    browser_title:  Desenvolvimento de software para lista de compras - Mãos do Mundo
+    url: /desenvolvimento-de-software-de-para-lista-de-compras-maos-do-mundo
+    short_description: 'Desenvolvimento de software customizado para lista de compras.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um sistema de lista de compras,
+        compatível com dispositivos móveis e multi-idiomas.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://maosdomundo.com.br' target='blank'>Mãos do Mundo</a> em <strong>Canela - RS</strong>.
+        Neste projeto desempenhei tanto papel de Product Manager, como de Full Stack Developer.
+        <br/>
+        <br/>
+        Como Product Manager, meu papel exigiu entender os requisitos do cliente, estudo e validação de solução.
+        Como desenvolvedor, fui responsável pela criação da arquitetura do sistema,
+        desenvolvimento Back-end e Front-end.
+        <br/>
+        <br/>
+        Também fui reponsável pelo desenvolvimento da infraestrutura e
+        deploy na <a href='https://www.linode.com/' target='blank'>Linode</a>.
 
-  # - title: Display Card
-  #   short_description: Site de Display Card
-  #   year: 2012
+    year: 2013
+    image: images/projects/maosdomundo-purchases-list.png
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - Responsive Web Design
+      - MySQL
+      - Sidekiq
+      - NGINX
+      - Linode
 
-  # - title: Mãos do Mundo
-  #   short_description: Sistema de distribuição entre lojas
-  #   year: 2012
+  - title: Desenvolvimento do Portal<br/>Display Card
+    browser_title:  Desenvolvimento de portal de conteúdo - Display Card
+    url: /desenvolvimento-de-portal-de-conteudo-display-card
+    short_description: 'Desenvolvimento de portal de conteúdo e guia de informações turísticas.'
+    description:
+      >
+        O Display Card é um guia / portal de informações turísticas,
+        e foi desenvolvido durante minha passagem pela <a href='http://comersite.com.br' target='blank'>Comersite</a> em <strong>Canela - RS</strong>.
+        <br/>
+        <br/>
+        Neste projeto desempenhei o papel de Full Stack Developer.
+        <br/>
+        <br/>
+        Meu papel exigiu a criação da arquitetura do portal, desenvolvimento do CMS / gerenciador do site,
+        e desenvolvimento Back-end e Front-end. Também fui reponsável
+        pelo infraestrutura e deploy na <a href='https://www.digitalocean.com/' target='blank'>Digital Ocean</a>.
+
+    site: 'http://displaycard.com.br'
+    year: 2012
+    image: images/projects/displaycard.png
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - Responsive Web Design
+      - REST API
+      - MySQL
+      - CMS
+      - NGINX
+      - Digital Ocean
+
+  - title: Desenvolvimento do Software<br/>Mãos do Mundo
+    browser_title:  Desenvolvimento de software customizado para distribuição - Mãos do Mundo
+    url: /desenvolvimento-de-software-de-customizado-para-distribuicao-maos-do-mundo
+    short_description: 'Desenvolvimento de software customizado para distribuição de mercadorias.'
+    description:
+      >
+        O objetivo deste projeto foi desenvolver um sistema de distribuição de mercadorias
+        para a Mãos do Mundo, que atua no segmento de importação de artigos de decoração.
+        <br/>
+        <br/>
+        Foi desenvolvido durante minha passagem pela <a href='http://comersite.com.br' target='blank'>Comersite</a> em <strong>Canela - RS</strong>.
+        Neste projeto desempenhei tanto papel de Product Manager, como de Full Stack Developer.
+        <br/>
+        <br/>
+        Como Product Manager, meu papel exigiu entender os requisitos do cliente, estudo e validação de solução.
+        Como desenvolvedor, fui responsável pela criação da arquitetura do sistema,
+        desenvolvimento Back-end e Front-end, e experiências com protocolo <a href='http://searchexchange.techtarget.com/definition/IMAP' target='blank'>IMAP</a>
+        para recebimento de e-mails.
+        <br/>
+        <br/>
+        Também fui reponsável pelo desenvolvimento da infraestrutura e
+        deploy na <a href='https://www.linode.com/' target='blank'>Linode</a>.
+
+    year: 2012
+    image: images/projects/maosdomundo-stores.png
+    skills:
+      - Ruby
+      - Rails
+      - Front-end
+      - MySQL
+      - Sidekiq
+      - NGINX
+      - Linode
+
+
 
   # - title: Varejo Digital
   #   short_description: Sistema de Varejo
