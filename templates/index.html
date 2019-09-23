@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{{ section.title }}{% endblock title %}</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" href="{{ get_url(path="css/site.css")}}">
+</head>
+<body>
+  <header>
+    {% set lists_url = [get_url(path="@/lists.md"), "lists"] %}
+    {% set now_url = [get_url(path="@/now.md"), "now"] %}
+    {% set root_url = [get_url(path="@/_index.md"), "about"] %}
+    {% set links = [root_url, lists_url, now_url] %}
+
+
+    <a href="{{ root_url.0 }}">alesshh's notes</a>
+  </header>
+  <main>
+    {% block content %}
+      {{section.content | safe}}
+    {% endblock content %}
+    <hr/>
+  </main>
+</body>
+</html>

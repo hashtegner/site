@@ -1,5 +1,0 @@
-@mixin respond-to($val, $query: min-width, $media: screen) {
-  @media #{$media} and ($query: $val) {
-    @content;
-  }
-}
