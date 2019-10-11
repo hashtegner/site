@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://alesshh.com/sitemap.xml
+Sitemap: //alesshh.com/sitemap.xml
