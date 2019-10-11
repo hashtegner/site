@@ -18,7 +18,7 @@ Atualmente eu resolvo problemas como software engineer, e meu interesse permeia 
 Tenho uma experiência profissional como desenvolvedor desde 2009, usando diferentes tecnologias e linguagens, e trabalhando em projetos variados. 
 
 
-Se você pode precisa entrar em contato, pode me mandar um <a href="javascript:location.href=btoa('bWFpbHRvOmFsZXNzYW5kcm8udGVnbmVyQGdtYWlsLmNvbQ==')">e-mail</a>, ou me chamar em alguma das redes.
+Se você pode precisa entrar em contato, pode me mandar um <a href="mailto:alessandro.tegner@gmail.com">e-mail</a>, ou me chamar em alguma das redes.
 
 - [Linkedin](https://linkedin.com/in/alesshh)
 - [Github](https://github.com/alesshh)
