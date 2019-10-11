@@ -3,6 +3,7 @@
   --text-color: rgb(76,76,76);
   --title-color: rgb(76,76,76);
   --link-bg-color: rgb(238,238,238);
+  --max-width: 60%;
 }
 
 html {
@@ -74,7 +75,7 @@ header ul {
 
 
 main {
-  max-width: 60%;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -84,5 +85,16 @@ main {
   --text-color: rgb(159,159,159);
   --title-color: rgb(204,204,204);
   --link-bg-color: rgb(48,48,48);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --max-width: 85%;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
   }
 }
