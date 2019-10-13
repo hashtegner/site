@@ -2,9 +2,20 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>{% block title %}{{ section.title }}{% endblock title %}</title>
 
-  <meta name="description" content="{% block description %}{{ section.description }}{% endblock description %}"></meta>
+  <meta property="og:url" content={{ current_url }}></meta>
+  {% block title %}
+    <title>{{ section.title  }}</title>
+    <meta property="og:title" content="{{ section.title }}" />
+  {% endblock title %}
+
+  {% block description %}
+    <meta name="description" content="{{ section.description }}"></meta>
+    <meta name="og:description" content="{{ section.description }}"></meta>
+  {% endblock description %}
+    
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@alesshh" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
