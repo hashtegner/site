@@ -77,7 +77,7 @@ main {
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --bg-color: rgb(40,40,40);
+  --bg-color: rgb(51,54,57);
   --text-color: rgb(159,159,159);
   --title-color: rgb(204,204,204);
   --link-bg-color: rgb(48,48,48);
