@@ -5,7 +5,7 @@ description = "Eu sou o Alessandro Tegner, software engineer, e esta é minha fo
 
 #  Olá! 👋
 
-Que prazer tê-lo(a) em meu site! 
+Que prazer ter você em meu site! 
 
 Este é um espaço aberto que criei, e pretendo tornar uma fonte de notas pessoais. Talvez nem tudo nesse site fará sentido para você, e a ideia é essa mesmo, mas se de alguma maneira fizer e te inspirar, ficarei feliz. :)
 
