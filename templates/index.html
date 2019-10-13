@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
 
-  <meta property="og:url" content={{ current_url }}></meta>
-  {% block title %}
-    <title>{{ section.title  }}</title>
-    <meta property="og:title" content="{{ section.title }}" />
-  {% endblock title %}
+  <title>{% if section %}{{ section.title }}{% else %}{{ page.title }}{% endif %}</title>
+  <meta property="og:title" content="{% if section %}{{ section.title }}{% else %}{{ page.title }}{% endif %}">
 
-  {% block description %}
-    <meta name="description" content="{{ section.description }}"></meta>
-    <meta name="og:description" content="{{ section.description }}"></meta>
-  {% endblock description %}
-    
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:creator" content="@alesshh" />
+  <meta property="twitter:title" content="{% if section %}{{ section.title }}{% else %}{{ page.title }}{% endif %}">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
+  <meta property="og:description" content="{% if section %}{{ section.description }}{% else %}{{ page.description }}{% endif %}">
+  <meta name="description" content="{% if section %}{{ section.description }}{% else %}{{ page.description }}{% endif %}">
+  <meta property="twitter:description" content="{% if section %}{{ section.description }}{% else %}{{ page.description }}{% endif %}">
+
+  <meta property="og:url" content="{{ current_url }}">
+  <meta property="og:site_name" content="alesshh's notes">
+  <meta property="og:type" content="blog">
+  <meta name="author" content="alesshh">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@alesshh">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
   <link rel="stylesheet" href="{{ get_url(path="css/site.css", cachebust=true)}}">
 </head>
