@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: //alesshh.com/sitemap.xml
+Sitemap: //tegner.dev/sitemap.xml

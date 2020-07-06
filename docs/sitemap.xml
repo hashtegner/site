@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    
-        <url>
-            <loc>//alesshh.com/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>//alesshh.com/lists/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>//alesshh.com/now/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>//alesshh.com/sites/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>//alesshh.com/techs/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>//alesshh.com/til/</loc>
-            
-        </url>
-    
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>//tegner.dev/</loc>
+    </url>
+    <url>
+        <loc>//tegner.dev/lists/</loc>
+    </url>
+    <url>
+        <loc>//tegner.dev/now/</loc>
+    </url>
+    <url>
+        <loc>//tegner.dev/sites/</loc>
+    </url>
+    <url>
+        <loc>//tegner.dev/techs/</loc>
+    </url>
+    <url>
+        <loc>//tegner.dev/til/</loc>
+    </url>
 </urlset>
