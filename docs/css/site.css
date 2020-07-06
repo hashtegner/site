@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #1A1E23;
+  --bg-color: rgb(250,250,250);
   --text-color: rgb(76,76,76);
-  --title-color: rgb(76,76,76);
+  --title-color: #D73A49;
   --link-bg-color: rgb(238,238,238);
   --max-width: 60%;
 }
@@ -14,7 +14,7 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Hasklig', monospace;
+  font-family: 'Fira Code Pro', monospace;
   font-size: 1rem;
 }
 
@@ -44,7 +44,6 @@ ul {
 
 a {
   text-decoration: none;
-  border-bottom: 1px dashed;
 }
 
 a:hover {
@@ -77,9 +76,8 @@ main {
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --bg-color: rgb(51,54,57);
+  --bg-color: #1B1F23;
   --text-color: rgb(159,159,159);
-  --title-color: rgb(204,204,204);
   --link-bg-color: rgb(48,48,48);
   }
 }
