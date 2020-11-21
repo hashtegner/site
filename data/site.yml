@@ -1,8 +1,8 @@
 itle: Alessandro Tegner, desenvolvedor web.
 description: Olá, sou o Alessandro Tegner, desenvolvedor, especializado em Ruby on Rails e tecnologias web.
 me: Alessandro Tegner
-name: alesshh.com
-twitter: '@alesshh'
+name: tegner.dev
+twitter: '@hashtegner'
 
 microdata:
   '@context': 'http://schema.org'
@@ -33,31 +33,25 @@ contact:
     options:
       class: email
 
-  - link: 'https://github.com/alesshh'
+  - link: 'https://github.com/hashtegner'
     label: Github
     options:
       class: github
       target: blank
 
-  - link: 'https://linkedin.com/in/alesshh'
+  - link: 'https://linkedin.com/in/hashtegner'
     label: Linkedin
     options:
       class: linkedin
       target: blank
 
-  - link: 'https://twitter.com/alesshh'
+  - link: 'https://twitter.com/hashtegner'
     label: Twitter
     options:
       class: twitter
       target: blank
 
-  - link: 'https://facebook.com/al3ssn'
-    label: Facebook
-    options:
-      class: facebook
-      target: blank
-
-  - link: 'https://instagram.com/alesshh'
+  - link: 'https://instagram.com/hashtegner'
     label: Instagram
     options:
       class: instagram
